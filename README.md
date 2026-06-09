@@ -1,2 +1,2 @@
-# Radar-Guided-Dense-3D-Point-Cloud-Generation
-Radar-Guided Dense 3D Point Cloud Generation via Stratified Sub-voxel Gaussian and Offset-Aware Diffusion
+# Radar-to-LiDAR
+Dense Radar-to-LiDAR Point Cloud Generation via Stratified Gaussian Encoding and Offset-Aware Conditional Diffusion
