@@ -16,7 +16,7 @@
     "fresh_inference": false,
     "source": "Already delivered full2400 manuscript outputs"
   },
-  "total_sensor_frames": 120,
+  "total_sensor_frames": 160,
   "sequences": [
     {
       "name": "intersection",
@@ -1823,6 +1823,1214 @@
             "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/006276.json": "288b19a45aa43f18096ca0e32e4dccbbaced10f87cb972589a17afb30d068ad4"
           },
           "rendered_RGB_sha256": "8e5d2348c028b67f02a40edb5d7fc1b28622defe83ac128fcf7b3ed39852d217"
+        }
+      ]
+    },
+    {
+      "name": "tunnel-straight",
+      "title": "Tunnel",
+      "first_frame": "005741",
+      "last_frame": "005780",
+      "frames": [
+        {
+          "frame": "005741",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005741.bin",
+          "prediction_sha256": "32644b7f9936a39efc2261f961dce1e7d2b0e12475f21b57d2515c218384ccbe",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 17170,
+            "generated": 20155,
+            "lidar_reference": 41427
+          },
+          "display_point_counts": {
+            "radar": 2896,
+            "generated": 19922,
+            "lidar_reference": 41427
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005741.png": "c542eb85dcd54cdf93ec03982d13f8b78bd2834aaf83f6eccf26e464282964be",
+            "Dual_Radar/testing/calib/005741.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005741.bin": "f4b40876270ba4ec78739c03e6f745a54d03f5bbec117fe8df0fc7ad6384d193",
+            "Dual_Radar/testing/ars548/005741.bin": "8d37a2afff827008b0e56a4a5512c3e8dd1db05a339ac89edce6bf672a8a1b1f",
+            "Dual_Radar/testing/robosense/005741.bin": "7f0f7e7455ab52b852a0fcc4f885739cdb0f2c6686920606090f9c4954bcd711",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005741.bin": "32644b7f9936a39efc2261f961dce1e7d2b0e12475f21b57d2515c218384ccbe",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005741.json": "3a60fd2aac756cc7660825cf36ce825f7dae839b0a84737c6f0bfceb7ae632c4",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005741.npz": "ffaa8141130b239c3e4012004a73e4de59c75728817d646e7c04dffedc91e880",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005741.npz": "653607816ab71fe3171b478dc8ef0b7f079833e1fcf10b7238026a604890b578",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005741.json": "950a641ada484efd51b03f1161aed4af53e37bb7a9a4433fa21820a84729c78d"
+          },
+          "rendered_RGB_sha256": "d77082cd921af1cef519a33fd30c898315f01e8189ea888368bacbe517bf5628"
+        },
+        {
+          "frame": "005742",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005742.bin",
+          "prediction_sha256": "d883f53565e45e4fb9b70aa2aa2c27b41b9b53b312729fe07279ff9825715093",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 15881,
+            "generated": 21482,
+            "lidar_reference": 41445
+          },
+          "display_point_counts": {
+            "radar": 3066,
+            "generated": 20291,
+            "lidar_reference": 41445
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005742.png": "71fe3da4d74e4bb7581ded4393241a2541fe3912e42f87eff723ed8453a151de",
+            "Dual_Radar/testing/calib/005742.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005742.bin": "52efaabacad445fbdc4a52342a5d319a71f79de5d1631dd9cd9678aa291b55b3",
+            "Dual_Radar/testing/ars548/005742.bin": "490be68b6a0e40f7c9ffa185002f552dc372d2304a2e11330abbb63f0e1ae69c",
+            "Dual_Radar/testing/robosense/005742.bin": "a21694911e541b42a67bc1410eafbfebdd45bbfcb15c8717d9ca4aac598c79ca",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005742.bin": "d883f53565e45e4fb9b70aa2aa2c27b41b9b53b312729fe07279ff9825715093",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005742.json": "10347a9f9f1b485fd5d31f001d15f0a21eb039fe4385853ed387583e396ba7c7",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005742.npz": "9181a4ad205e35efef9c33ada35dc209eecf79f42334aa21ec416c217cde6269",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005742.npz": "f8c587ac1e544e7349c67c9f60f43024d0433880f49a068b551877439b241628",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005742.json": "6b228e491fbf3a80d75b88c4b9ae8b36c10153da7b95b768e8f40b0e8bb71949"
+          },
+          "rendered_RGB_sha256": "ce33cd2a26043d80d863436fbefb378e3069783def97a155dbfb26e4f582edfc"
+        },
+        {
+          "frame": "005743",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005743.bin",
+          "prediction_sha256": "38109fb8c6935be2b4cba2374950beb279e2e8b828bd844170977ac3975ac20f",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 17279,
+            "generated": 20616,
+            "lidar_reference": 41909
+          },
+          "display_point_counts": {
+            "radar": 2780,
+            "generated": 20373,
+            "lidar_reference": 41909
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005743.png": "51e0130627045c931e9014cb6217b956bafb163c40f22a86500ad5e3c9c409d1",
+            "Dual_Radar/testing/calib/005743.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005743.bin": "22185fa1cb69729af75b7537937d93e4c720edd0a18edcff891b1bd7a085a93d",
+            "Dual_Radar/testing/ars548/005743.bin": "95f8824a52f46bd2bb37d10230d6cb27332c546e83d9b047908acc4c55936109",
+            "Dual_Radar/testing/robosense/005743.bin": "8e657610450d50ab6c7ca79ad55cd58f66da81c7423f0676fe27fbb6b77617c5",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005743.bin": "38109fb8c6935be2b4cba2374950beb279e2e8b828bd844170977ac3975ac20f",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005743.json": "32026aa5199348b9d5840815a13dfe8e8bff668612c8545d3bff1170e684dc39",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005743.npz": "2aca19a24b049d895dc727b9aa1969948b1ba00a40e410c0d85a58c1a2c4843e",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005743.npz": "679940346b8b74ed370aee7a95cc795a429914edfce9a9f75263101a947be929",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005743.json": "0cdbbc2dbf99b42aed0a8aac04bae8707142bb42c5730146912ada964b3822fc"
+          },
+          "rendered_RGB_sha256": "ddf756766798cfa486d1f10a6e087cdf8176f8493dab97452af7a8628e9a59c1"
+        },
+        {
+          "frame": "005744",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005744.bin",
+          "prediction_sha256": "17fb368e1165172b41ae0c75781af16c2d5b10419ae8a88f4f6f780e7b1db6b7",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 20183,
+            "generated": 20841,
+            "lidar_reference": 41382
+          },
+          "display_point_counts": {
+            "radar": 3447,
+            "generated": 20602,
+            "lidar_reference": 41382
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005744.png": "d14fc003256ae3b4cb7bab6858bc86fad48cf7461c6bc2761725097c381be1f2",
+            "Dual_Radar/testing/calib/005744.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005744.bin": "9d8ff617184a47fad70260809715db764820e19db1cc506d441ba24f635feac0",
+            "Dual_Radar/testing/ars548/005744.bin": "7f3ca7741b8811871e58853f237036f12f75e263f8665daf47e05d703c7d3611",
+            "Dual_Radar/testing/robosense/005744.bin": "0740adb26c17b0aba0f6599cb3d6f6d24b00cecff1ab8153dd1b0304b9710468",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005744.bin": "17fb368e1165172b41ae0c75781af16c2d5b10419ae8a88f4f6f780e7b1db6b7",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005744.json": "144f7ac6023b1c232fcd8d6dbdbb33bd5ffdeb74b366e6bb921108c1515dd782",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005744.npz": "a65719effa279eed37e1a50f663b2cf66b61f9958800060fec23f398a197a026",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005744.npz": "0ece1c895e022b30b09fa35326606506af8a3e52ee5217411c8b0b7fff5d4e92",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005744.json": "be1c61b083b4032798a82c0f4b4bf3f42b9a132d797c4f1d9246dd58d1c73a91"
+          },
+          "rendered_RGB_sha256": "53288b953051d83f5105b0e6e7d781dbe482faa4a481d22b4340163ef4ddb8a3"
+        },
+        {
+          "frame": "005745",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005745.bin",
+          "prediction_sha256": "1a998c3425c01292018129cac063d8df399d81f18108a2df930383af60b589a9",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 18532,
+            "generated": 21520,
+            "lidar_reference": 41390
+          },
+          "display_point_counts": {
+            "radar": 3337,
+            "generated": 21352,
+            "lidar_reference": 41390
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005745.png": "65d8b7bde06769a5afcd0e700c4a96b760554a1a7d426cbd72bfbcfeeb6e0474",
+            "Dual_Radar/testing/calib/005745.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005745.bin": "49973ea09826ddedeeb603987ba467ca700d57cd636cf920f381044b547e795c",
+            "Dual_Radar/testing/ars548/005745.bin": "6548d2d604de09615c0512407580228f42f1fa63be85ecbfaa293b00e6a05f75",
+            "Dual_Radar/testing/robosense/005745.bin": "81559e70036892fc398956bd1433e0accfa0dfc00220f7f2b76010b4852281f0",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005745.bin": "1a998c3425c01292018129cac063d8df399d81f18108a2df930383af60b589a9",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005745.json": "1d7eefeda98a405ba58d6be2d260e811e7975ed619ac5224cf455586a3658e3c",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005745.npz": "0549f09443c041c272dc243f73e4c3ef5f8e004c603d920854dfb6ff26fc7060",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005745.npz": "bd72ec052c665199a37c073c2bd147604bf3461723255630548f54f80385f244",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005745.json": "d4b6df3b3da5a93d37a76b4258832bdee54bd7e7027f3df3473753ee36f95776"
+          },
+          "rendered_RGB_sha256": "85e158249d95784a591b8c0e0e71693a31e85592786e7c2a5a25f7928b5f88bd"
+        },
+        {
+          "frame": "005746",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005746.bin",
+          "prediction_sha256": "cf64051d75b3523dedf7db980e22e5603bef2ab512a05b1767357d976b80b85c",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 16886,
+            "generated": 22385,
+            "lidar_reference": 42270
+          },
+          "display_point_counts": {
+            "radar": 2861,
+            "generated": 22155,
+            "lidar_reference": 42270
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005746.png": "b5adb89fe3c0b1e03843a795c496d6cef1c136c903e15bc3afda6493e81c710f",
+            "Dual_Radar/testing/calib/005746.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005746.bin": "b33cec8339f7ddc88d0d5abc8a8f334442f9d850dc828e8d7dce57357dba2cc1",
+            "Dual_Radar/testing/ars548/005746.bin": "74d080d3f18f991a83476736822615955b34edca03e6946d096fe0cdfe98485f",
+            "Dual_Radar/testing/robosense/005746.bin": "7043646376ccbaa957fd9a748f6bb38e4339a9b0dd1e00661c7af07487061d0f",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005746.bin": "cf64051d75b3523dedf7db980e22e5603bef2ab512a05b1767357d976b80b85c",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005746.json": "6e4966bab1a0bca5bd3aa0eada8a7c449b7ae436df7db530767850fc99e6f0db",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005746.npz": "919eca99484e8a6b256419a3b7b9ae7f3da869a71f7e26d17f5779fc021c4080",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005746.npz": "e6795a06268a26e80826e190a607b770131efb088ef57eaf237de3f06d9f6cd1",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005746.json": "ab1b56973187aa7b1805b417e8bd717438e060ef8b24e3e81ef43c0d9e539e37"
+          },
+          "rendered_RGB_sha256": "5120d7d91e0c4c3f8982f9be8b043b84f751d4b4c0c066af024a181701c2d1d3"
+        },
+        {
+          "frame": "005747",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005747.bin",
+          "prediction_sha256": "a7493b7dd6faefd3056934f0db55970271e43f4a2891a8954c0b9bc4ad8a8155",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 17757,
+            "generated": 22018,
+            "lidar_reference": 41369
+          },
+          "display_point_counts": {
+            "radar": 2992,
+            "generated": 21698,
+            "lidar_reference": 41369
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005747.png": "d204d9dc0bccb2197a98135414a7ecee1a1ee7bbf37f00fdf041417d8310db71",
+            "Dual_Radar/testing/calib/005747.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005747.bin": "154ceebaef28a7f3055bf2bb8566cb251f7cfc4ee712fd379eb7bde04cffd6da",
+            "Dual_Radar/testing/ars548/005747.bin": "a5d1063a7fbc35d279e138ec059703da014c7e90245c58bfae714f5334e32dca",
+            "Dual_Radar/testing/robosense/005747.bin": "3e9d7832000c8c73174b7e4d24588e7303ff81eb49e513bc6faa67994c0c54d2",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005747.bin": "a7493b7dd6faefd3056934f0db55970271e43f4a2891a8954c0b9bc4ad8a8155",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005747.json": "a2ee2770bf590b7f40b704dd941784d67aafcc2ee16e7bd43b4df29f87f93fbc",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005747.npz": "acb804bff18bedad1be46a97d53f9cd296f424bd5b45d41b55f442b4564b7b86",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005747.npz": "8110baa1c8fc5667bae66a857630bdb4ce7516c79194e2ca5a51633c85a3c477",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005747.json": "457f747c354501d7c920d28faa3d1db7433bb5802039790a1691e64dc10e10a4"
+          },
+          "rendered_RGB_sha256": "f1ca98e30c571467544eddb37acdb4dc8d38b436ed6a116e03a4947e54e4adf7"
+        },
+        {
+          "frame": "005748",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005748.bin",
+          "prediction_sha256": "4d3b6d6c200955d26e56b4b822fb7dc5b0f97425786b915e6c99837d4a1fbb87",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 18216,
+            "generated": 21278,
+            "lidar_reference": 41158
+          },
+          "display_point_counts": {
+            "radar": 2910,
+            "generated": 21048,
+            "lidar_reference": 41158
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005748.png": "d16c00e76d6b031b6ee1252bcbbade22aaf39f0d4ebe327767cd220d5bf213f8",
+            "Dual_Radar/testing/calib/005748.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005748.bin": "00ff850e7e5dd7a545be473e40495dbf84c55c8e4b658110e5825ee5fdfeed75",
+            "Dual_Radar/testing/ars548/005748.bin": "36003247d695b6febd175309b6889d4de9c30ca9d900dfce9afd35247aa9992a",
+            "Dual_Radar/testing/robosense/005748.bin": "68fd86b29378fbeec78b27f9275031474a530cad6c327dca14bb107f504743f1",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005748.bin": "4d3b6d6c200955d26e56b4b822fb7dc5b0f97425786b915e6c99837d4a1fbb87",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005748.json": "d64026f7af3979dfbb9598cc371a348555a63d71b08f9c037edc85d60ab8b8f6",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005748.npz": "2c31c57e4e46ddefe19782092f6fbee656d13d80168f73d1876fd8f651accc46",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005748.npz": "3a6002f51f4f5a4a5c0eb625d3752d26b9255476720144ea4e4e05f30adba907",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005748.json": "53e9a81635b84b6ea3b913b99ebb031e1d673d5403b57b3eade8061ee882fbea"
+          },
+          "rendered_RGB_sha256": "caf14c5ab33ed7e5afadb7de5ff8ad014a82bbffd877e2d4f86b9633ed373755"
+        },
+        {
+          "frame": "005749",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005749.bin",
+          "prediction_sha256": "b49cba2bc403f28a797f66eff45e4957ace93e74f77964c2635e38e4b1f5e24f",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 18797,
+            "generated": 19555,
+            "lidar_reference": 41346
+          },
+          "display_point_counts": {
+            "radar": 3016,
+            "generated": 19400,
+            "lidar_reference": 41346
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005749.png": "d6a2eac7a9aba2c0adaea0499e72f4af3bc3dab077e1e573247d2cdd4e5ac77a",
+            "Dual_Radar/testing/calib/005749.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005749.bin": "3a35ad9e4549f0be4bc14bd12d52afab056138075549bf4123fc6e574d289224",
+            "Dual_Radar/testing/ars548/005749.bin": "407f36db16482103abfa87b931c18a020c0ea6095c491ee53b784664bd68da6c",
+            "Dual_Radar/testing/robosense/005749.bin": "07efd1a9142a126802f0edb2bc23c3f65de6e54f9d9e7161ff609fade65b91c0",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005749.bin": "b49cba2bc403f28a797f66eff45e4957ace93e74f77964c2635e38e4b1f5e24f",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005749.json": "d0ac8b22d76e569d51fa05de4a337af89b37e5b0162273661363c795dc423e11",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005749.npz": "252b3a4aab162e2bec00a4559851abe133923b363370768d53c4bebedee5ef29",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005749.npz": "f5818527b12a4e1c973ea8c47c7002f17b528c9f0a632c46157e23b9a9f14c6b",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005749.json": "15bf01d0b66f68556eea71e2de0a81527ca618cfcc4ae6a8eea508bac3f5e10c"
+          },
+          "rendered_RGB_sha256": "f7514f64be98f6265015feb721677d2b7e65216aa90f3942c92e50fc78e1fb6e"
+        },
+        {
+          "frame": "005750",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005750.bin",
+          "prediction_sha256": "d301822aa5dd20444ebbe39e1e481591dc59baaabf3980af7898637b48216632",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 19308,
+            "generated": 20834,
+            "lidar_reference": 41292
+          },
+          "display_point_counts": {
+            "radar": 3174,
+            "generated": 20744,
+            "lidar_reference": 41292
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005750.png": "2e12acce4a213cc84b5a77c184c93194aab8f4ae64cb237fc05be42336c4e0cd",
+            "Dual_Radar/testing/calib/005750.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005750.bin": "77ba053fa68a78cce751fdc9cb27469cf5595d4063d20b4968605b43350a76f7",
+            "Dual_Radar/testing/ars548/005750.bin": "d97f8c947bbb5b025f6438e9ffeaa7e7f27d19901efe4cc9407393dc4dfc580f",
+            "Dual_Radar/testing/robosense/005750.bin": "d593b6742c2bd859419436b0a0d1253e6ffb287043c4a2043a7bf9a96e1261af",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005750.bin": "d301822aa5dd20444ebbe39e1e481591dc59baaabf3980af7898637b48216632",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005750.json": "f93bb507722c4613cec0ec8860f5e887d2af248dbfc44d1b7028f72bc3a4076c",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005750.npz": "d944f8da7697bb5a5c19cbfecbed6d4c39b08596528a419acf8abafc8caa69f0",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005750.npz": "71897326aed863871743e3c34b402b3079da9e461c73cff8dc85496b2e59cf1d",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005750.json": "e54f3d78e42c89d985965700f4fa7346d504f19d40f7752514197eabd34cf37f"
+          },
+          "rendered_RGB_sha256": "36afb21954408f241361c4c6d10b4225142e6f2d00d03901a2602df3f2ebea57"
+        },
+        {
+          "frame": "005751",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005751.bin",
+          "prediction_sha256": "74c2549894f58997521fdb4813446d2fbb7dfa2e6aa5bfa65b26dc6e18f92a4d",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 18249,
+            "generated": 20453,
+            "lidar_reference": 40957
+          },
+          "display_point_counts": {
+            "radar": 2771,
+            "generated": 20095,
+            "lidar_reference": 40957
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005751.png": "b44f98e7d441dacda6b888b1fda311013b19084e4bbea60b6d95c58aff3669a5",
+            "Dual_Radar/testing/calib/005751.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005751.bin": "9575062596800c0aafe922dd42220dd2d83faa1e7cb6179de51ac79f9ae26ce1",
+            "Dual_Radar/testing/ars548/005751.bin": "c3b004f20f0dbd0867ba227595ab232915dde2411aff46b7cf3a4d1574c831a6",
+            "Dual_Radar/testing/robosense/005751.bin": "fd7cd1a9c74958d73fc21aef8b2f1b39fcb1a39f86dae6fcf499723ffcc366eb",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005751.bin": "74c2549894f58997521fdb4813446d2fbb7dfa2e6aa5bfa65b26dc6e18f92a4d",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005751.json": "02a4541d4ee2d4c71ddebe81f9b35857a893c9a0104ff833084cb7ce909ed43f",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005751.npz": "e9a017cdce1624ad181ad27c41fd6fcaff7a356e3387433f7c3696345487975f",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005751.npz": "705947fe2755b1a7aa0b99e414ce050e5a253dcc613183d32f0fd2406d798e3e",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005751.json": "fb41d92032e465ed20c80235b6f3ac06bbd538fc4cf109bf14ad6d4ee0e0605d"
+          },
+          "rendered_RGB_sha256": "059a27968f1023cdeb4669f7ffc939d6816e8e1d604f0e72c283f2ac80d0e9ab"
+        },
+        {
+          "frame": "005752",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005752.bin",
+          "prediction_sha256": "23c602af563608559f5436453518703cd3394e51eab58e9338c67966213ab819",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 15720,
+            "generated": 19618,
+            "lidar_reference": 40589
+          },
+          "display_point_counts": {
+            "radar": 2095,
+            "generated": 19313,
+            "lidar_reference": 40589
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005752.png": "52f242a6cbbfa1eb31366e79309262e3bbd23850c9dc54f7ddba44be1e850739",
+            "Dual_Radar/testing/calib/005752.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005752.bin": "c35e7ee66ade17882aea61ac2e2bec5527a9492aa52af4ca2e0bbbbad527818f",
+            "Dual_Radar/testing/ars548/005752.bin": "d332ee36d16e2e087158b1221c36863c986d8b2868567421c48777d2cfd75df7",
+            "Dual_Radar/testing/robosense/005752.bin": "0f112b4935623b21fad0478921a4cbd3231d29c678e3e7d21a66bb5d304f39db",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005752.bin": "23c602af563608559f5436453518703cd3394e51eab58e9338c67966213ab819",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005752.json": "8a34e90ea637ad265941fc8f0e83438c7b696377e7ae33241e80bec8442bd493",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005752.npz": "1759d5fdb1e574b202f19036921d7811407693fbfa125dd65911bc84fd7b4195",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005752.npz": "e17e9e0eb20602ea9836170bc3d1080a22fb8c57a08e0d94a889f5097d557615",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005752.json": "4699018abdf17b19462619bce34ea697bf0731c22ab5be74e7487c0895e8e4af"
+          },
+          "rendered_RGB_sha256": "8f4b075f5661f3b897c88db062ce4720526142fc128a7afc2c5e6b9f95f380db"
+        },
+        {
+          "frame": "005753",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005753.bin",
+          "prediction_sha256": "bd87302c8cf5cde529acf519d0e5ce0cadec24d9750b7b0a266cd3ba6fd30de4",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 18317,
+            "generated": 20412,
+            "lidar_reference": 39739
+          },
+          "display_point_counts": {
+            "radar": 1978,
+            "generated": 20056,
+            "lidar_reference": 39739
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005753.png": "6fe329392187450ce3785151da5aaf27fe15627769430a978942422aa8145464",
+            "Dual_Radar/testing/calib/005753.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005753.bin": "a827cb2ead2e70a9547e5b72b490417cba5e1f1b3b0c8507b1f2f406ccd0e746",
+            "Dual_Radar/testing/ars548/005753.bin": "4c287235ef4a1788187efe78590b0a8e8efe6e40542c543f7fdb7f5b512d43ad",
+            "Dual_Radar/testing/robosense/005753.bin": "d515c78a2cdca54529b713e0719154958a9dda819307161ac0ea56f5949c3a0f",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005753.bin": "bd87302c8cf5cde529acf519d0e5ce0cadec24d9750b7b0a266cd3ba6fd30de4",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005753.json": "c9026edcd73fe03a40487a2c7ced932d79da9ae45df469d0a0b756a7d26fb31b",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005753.npz": "448fcf423b5c4fad14a289d985fd54e49bdcf32ffa3d1a6fd27e18332ee60eef",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005753.npz": "1f5e51c847b2b32408b89599736c16443af85519c7c4d1e9c084d2029f714c54",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005753.json": "5ff2f32e19e1f25706420a4857d30623965aef5ef30414f2683af5381cbd8262"
+          },
+          "rendered_RGB_sha256": "d583ab35515a1718a792bb5ef4f68e0d0ef5c13a5aaf27cffcb4dc5000f1d76f"
+        },
+        {
+          "frame": "005754",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005754.bin",
+          "prediction_sha256": "d00542cb526c9d1dca2dbcd5b56cc267fee2ec47c3e8257a788366d48aa28978",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 19330,
+            "generated": 20148,
+            "lidar_reference": 41391
+          },
+          "display_point_counts": {
+            "radar": 2146,
+            "generated": 19909,
+            "lidar_reference": 41391
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005754.png": "0ff0b970ae4c12da74df8d748147b9ea20f183f55749c2f980fa13bc5acf43bf",
+            "Dual_Radar/testing/calib/005754.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005754.bin": "3b82dfb5f7630302aff76a73cbf5f9c301f64044239e00b18d6302a2a94fda95",
+            "Dual_Radar/testing/ars548/005754.bin": "f5a2b5bf2b0d5e81d381c10bd2a82db1d2545ba7cde3d9dce8002522f350790b",
+            "Dual_Radar/testing/robosense/005754.bin": "288b9103435a3045543091a8305f410393a750c7534f5f7a89d27e6c9d408694",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005754.bin": "d00542cb526c9d1dca2dbcd5b56cc267fee2ec47c3e8257a788366d48aa28978",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005754.json": "45942e49d0eae892f1e3f5bf543e1004faa1686bc9752bcf12f74864569bb2dd",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005754.npz": "a0bc81e706e5b2823060215c13897d0fc47808fb282b90ea2b3a3e4df3e85701",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005754.npz": "77e2cb846d930892941f4a89901dfb50cfaa0c904940dd989645a27bd221a101",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005754.json": "4167de23f7883c50b256535bf8bd8fe35191a9ae977aae5d5fadbf7ebce34e54"
+          },
+          "rendered_RGB_sha256": "bf272c158cdf405833958e80fb2adbb835d91333c26429d4bf23e1780c411c07"
+        },
+        {
+          "frame": "005755",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005755.bin",
+          "prediction_sha256": "ad703f3a919a8835c845fe88f01e403a7858958a290102bebe972a916d594294",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 23104,
+            "generated": 21674,
+            "lidar_reference": 41563
+          },
+          "display_point_counts": {
+            "radar": 2674,
+            "generated": 21257,
+            "lidar_reference": 41563
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005755.png": "6dad8ed92dea048c7250d7a87f2fb9a1f7936758c026ff5307f27592d0150af3",
+            "Dual_Radar/testing/calib/005755.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005755.bin": "a3ff5058b3d888ebde8cdf309921fd3740e9bc0bbb2e80ebf7286eda60260912",
+            "Dual_Radar/testing/ars548/005755.bin": "b9d492edb4bd28db5c501154d0fe52d230a3e107290f2ee449e544a2c49a1d53",
+            "Dual_Radar/testing/robosense/005755.bin": "b9ff807c7f0cfeceb258b5b359e064a5bb4ef54bfedc16aa3b61f5aea1298893",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005755.bin": "ad703f3a919a8835c845fe88f01e403a7858958a290102bebe972a916d594294",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005755.json": "00bd90a258fbf88035e1ed81cdc3db7a8d5d3651ab7e3dbc68bdd08db4874951",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005755.npz": "9e3e1434071cf3d0f489d27e861f0e896c2fb78f2eddd2e3602ef5404e4a75a8",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005755.npz": "d3c8f3f91805bce42d8c9f753c6e42d783f632664a2c32aca53742d78cb2003f",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005755.json": "4d69ec7f446ca02012ebb9f2679d9029d916d0dd2d85eebc1a24788f58a12895"
+          },
+          "rendered_RGB_sha256": "8eb582cdce8df7f89c5d31cd0993c094a37cfcfc03042c8a283600e70db6feda"
+        },
+        {
+          "frame": "005756",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005756.bin",
+          "prediction_sha256": "d80e33c61e8a716636b657a1a56a50b91bcddb0f39bff8c24c7c8e57fbad675f",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 23652,
+            "generated": 20843,
+            "lidar_reference": 41570
+          },
+          "display_point_counts": {
+            "radar": 3029,
+            "generated": 20726,
+            "lidar_reference": 41570
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005756.png": "be948bab7fdbdbe2c99db2ca2e0f3e5f6a681f8b9268e87dda2af615d41046f2",
+            "Dual_Radar/testing/calib/005756.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005756.bin": "6b5dd308e614ff0f58f777aacd874269aeefe394209dace61cdb387002316499",
+            "Dual_Radar/testing/ars548/005756.bin": "bd7e6c0458cb0980ece242d6af5aaf92b0339eda070fcd756f730c90e9247d92",
+            "Dual_Radar/testing/robosense/005756.bin": "c84ee435848c933e3b91d44db0f5b835bb12a25d3ed4f7b970a9affecaa019a6",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005756.bin": "d80e33c61e8a716636b657a1a56a50b91bcddb0f39bff8c24c7c8e57fbad675f",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005756.json": "c091df798a35466b7bccb3ca582c382222b54789ba79c0e55386251e36276bdc",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005756.npz": "4037041d1f080d6a2c3169ce709785c362368c13634fe3610d166ee8b831e149",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005756.npz": "f5b5fcaf99bab093d9bd3741c70601ed5991951e83b031f94c861e48e0c267b3",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005756.json": "b85909a1c672a735a62c15954c3a7f7ff46677f17db33046c55e7b60b8f690f6"
+          },
+          "rendered_RGB_sha256": "008904e1a35a3539ec1b8ccbb4a296e6c4d49b9e8b5fc31e421462db5194ddd5"
+        },
+        {
+          "frame": "005757",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005757.bin",
+          "prediction_sha256": "7570849f3f34ba0fbb949065cd6c3ea189a2c0f49df4f63a081d1732c9acc7e8",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 20981,
+            "generated": 21090,
+            "lidar_reference": 41177
+          },
+          "display_point_counts": {
+            "radar": 2940,
+            "generated": 19530,
+            "lidar_reference": 41177
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005757.png": "2b631cf3394ea566552692b6fd5bff09d6ac2f81525b41155154344775c6d1f8",
+            "Dual_Radar/testing/calib/005757.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005757.bin": "93dc84c0311b0fef026b7c1e6aa77daa846094dcf1836f99bfd584b4ab4cef99",
+            "Dual_Radar/testing/ars548/005757.bin": "6efe8f223a64c025112b39278494c94f7557e54a11d9ebac2171aed92cbe269a",
+            "Dual_Radar/testing/robosense/005757.bin": "1de27acc8f34624b72166a4152be301f574affe7b36da3b5051e1d8a9480e20d",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005757.bin": "7570849f3f34ba0fbb949065cd6c3ea189a2c0f49df4f63a081d1732c9acc7e8",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005757.json": "d22e1618b45c35b867e2158d044707207d90ddceda3dd2805e2653efa40f5436",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005757.npz": "94278a87566df6d7d565890ca11c04defb7348a461510a375de3635cc1aa9e66",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005757.npz": "4cf88d64b9a54bc79d256b36d4608b9f52038d40a613a99d1c1cbad4e10334a6",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005757.json": "c1836ffd68cc56d40e0eab26000785056f5f96c548a19150d63919424783aaeb"
+          },
+          "rendered_RGB_sha256": "9102e531ed486decd1d998a8e25a441ce86dd95914e584ae957a9b0923764f5b"
+        },
+        {
+          "frame": "005758",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005758.bin",
+          "prediction_sha256": "eae31c94cc72a3cfade37e5d236565b35f4be9aaeff127b1049e7b6f8110d271",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 24612,
+            "generated": 18898,
+            "lidar_reference": 41145
+          },
+          "display_point_counts": {
+            "radar": 2745,
+            "generated": 18661,
+            "lidar_reference": 41145
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005758.png": "ac7cb9b02bced12084edfd515f04a78ae004c121f05379b2b4d998f86293fd65",
+            "Dual_Radar/testing/calib/005758.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005758.bin": "ae44a1a9cf500066cf1a331ebb75b8c1259e93f19ef9548e5b1033040efc66ad",
+            "Dual_Radar/testing/ars548/005758.bin": "52683cc85ba20a125a442eec38c7cbc29e9d9bc6d6057760c38c458a5094cbf5",
+            "Dual_Radar/testing/robosense/005758.bin": "c8ed2362b5aeaaff1fe7e37193e7954fbb6e0b04bd3da3b01c13b8b7989892b9",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005758.bin": "eae31c94cc72a3cfade37e5d236565b35f4be9aaeff127b1049e7b6f8110d271",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005758.json": "54bf586c617dab649dff7aa8fe292e2106cba131ee044cf0fe30118b094cd7eb",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005758.npz": "f867b9dcf2ca4af79217e360da31f6d835c8e2f27b318cd0c25f8570d6cdc51b",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005758.npz": "ee62ce035c0ca4cc989d0101075779ccb4d7e64f505fd5028353ea00e481f634",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005758.json": "d3745013d3afde5390751c541ced6be60fd4cffb6ce2e2918a6625ab1b8cde90"
+          },
+          "rendered_RGB_sha256": "f17b64af4d88af406ce91804a5ecbd6a8676a42a67ff6300495a1a735bedeb86"
+        },
+        {
+          "frame": "005759",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005759.bin",
+          "prediction_sha256": "c063763ef99703956ed41caa665ac4dec9b24e3cb9547be40461a166683e5f27",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 28173,
+            "generated": 20353,
+            "lidar_reference": 40755
+          },
+          "display_point_counts": {
+            "radar": 3727,
+            "generated": 20077,
+            "lidar_reference": 40755
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005759.png": "53fb2175cadd3ad01191c86b4ee13feebf34684f14dc832a902ef5e14094dfc6",
+            "Dual_Radar/testing/calib/005759.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005759.bin": "d7797afedcdc5a522a9a7a10352b8763f4bf847b859925be650caa0046ec4667",
+            "Dual_Radar/testing/ars548/005759.bin": "0ee3dcefaf3b6f59e2909d971770be4d8ae5365453708cac05159f7a0a178d92",
+            "Dual_Radar/testing/robosense/005759.bin": "42d48e9fff6d67395df3aaeaf44561d9ca21e92f18be1e2d64cb49386cff438e",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005759.bin": "c063763ef99703956ed41caa665ac4dec9b24e3cb9547be40461a166683e5f27",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005759.json": "3bd13844b36338e087bf73b13c5ece71d1226aba714b6536afeb630356424bd7",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005759.npz": "2b8524650f3787c6f96a53f67cb3f850584b95f6f2de495c51763b83ba6c89c9",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005759.npz": "49618e040b7308a77f1c0a924f5e635a9e601945fffdb8fced4bdfc0657a7690",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005759.json": "67ae1aa93e8ffc8598a5aa2840603d4ab18d595c0eadafaaa846192f64178e10"
+          },
+          "rendered_RGB_sha256": "35c32387a9c96a7b7124829fe3794490b8ee15572b45940fadff1d725c127a5b"
+        },
+        {
+          "frame": "005760",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005760.bin",
+          "prediction_sha256": "b3befb50667630ae210e23a94cf2d4438e77b6214e0f5bf8ec475f2b100278d5",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 28128,
+            "generated": 20065,
+            "lidar_reference": 33730
+          },
+          "display_point_counts": {
+            "radar": 3667,
+            "generated": 19936,
+            "lidar_reference": 33730
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005760.png": "0a90d5263cd60091542fb5a7b6bba0629c46b2afebf05c44be1732df126f84ea",
+            "Dual_Radar/testing/calib/005760.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005760.bin": "8180b8748844c94986c8a44a511cb6730f410b47af146c8c9da11a96cde776b7",
+            "Dual_Radar/testing/ars548/005760.bin": "c022d20c3000bc27bacdd7a1c3870378208297440664c825ca440d93e5f357ca",
+            "Dual_Radar/testing/robosense/005760.bin": "c16e6a9a190fadf1557972337e4dc25e415181b90a2235791b7c0e4d4d5407bd",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005760.bin": "b3befb50667630ae210e23a94cf2d4438e77b6214e0f5bf8ec475f2b100278d5",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005760.json": "ecd73613cb1b90816b64fbaf7b7a6e1d34608e93ab546cdde52455e3d77e0aa2",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005760.npz": "f42cc4535b22defeeeeb375939bdbd1febb6827700d175107312e6df78cdd1c7",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005760.npz": "425dd1a96c1e8a9b552d9db5734427c54290df69f82cc30a2f98b5d3932c2aa7",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005760.json": "70a267f78f0809691704565873c223a4ac9c47657bfb07ff62e35d418f7cf580"
+          },
+          "rendered_RGB_sha256": "4f962a22e1d1ceeb884e40bdb8f58d342a7f2f1fb124d0902ef828f98b39f8b8"
+        },
+        {
+          "frame": "005761",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005761.bin",
+          "prediction_sha256": "6832184b64d702cfa4da4946a9b9a823ce9bcb543a5a684c53ea231acde755b1",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 27363,
+            "generated": 19574,
+            "lidar_reference": 39719
+          },
+          "display_point_counts": {
+            "radar": 3846,
+            "generated": 19320,
+            "lidar_reference": 39719
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005761.png": "959021dd275d7c62a7a0a0d1c926ddeb06288291d6eb19529c77dea9a7c2e87e",
+            "Dual_Radar/testing/calib/005761.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005761.bin": "20aea5d9c036d1358dedef4a26115d952d1ab04c68c75f74e79c29a31ad871bd",
+            "Dual_Radar/testing/ars548/005761.bin": "08d86f0611c60236da808df510be4d53fbddd50c953c3fcfc67009586aefc9b9",
+            "Dual_Radar/testing/robosense/005761.bin": "306763fb2ecd2d87c2b4a8181dc7525028f492482943f865c26171bf680a8095",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005761.bin": "6832184b64d702cfa4da4946a9b9a823ce9bcb543a5a684c53ea231acde755b1",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005761.json": "240ef2ef2c3b6f72b816d608642523c85ca5331424ac25d41b2c2af1486ff0b1",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005761.npz": "390e3b2794d72032efce92a4dda05a6b33b7df81802d90328795186dadfcd14d",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005761.npz": "4fad48f1ea8b4bd0f1ee5bd95d9a3a87ef4b49242e6c67d0ce69d16e3b9006ee",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005761.json": "bfc746a56b475a90de51c5490947124a6d60e3ee55bafe41534b42087004ee1f"
+          },
+          "rendered_RGB_sha256": "a5fa7f038dd4bc062824a533e7bbd24a5b3d46c2d0889adcd4e59aeeaec9cac7"
+        },
+        {
+          "frame": "005762",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005762.bin",
+          "prediction_sha256": "65816a61248657299137f716609428690573ba4a7b825587e17ea3252175d937",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 27950,
+            "generated": 21124,
+            "lidar_reference": 29160
+          },
+          "display_point_counts": {
+            "radar": 3850,
+            "generated": 20837,
+            "lidar_reference": 29160
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005762.png": "f52ec1b2a1fd4d6a8e9256faa64cb10496112059b4d9a63749806001e2b2378f",
+            "Dual_Radar/testing/calib/005762.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005762.bin": "77c5f4ad53497b3618680efa4c9115376eaec2b67522a668cf097474804ef683",
+            "Dual_Radar/testing/ars548/005762.bin": "8188a4b1f996a6e504aa295a6dfed5c734443f29badc74caa995aceb88bf4c74",
+            "Dual_Radar/testing/robosense/005762.bin": "70ecce48836e4718cb4371f9abf9098081aa5ed3017602817ad029e5c5b37f81",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005762.bin": "65816a61248657299137f716609428690573ba4a7b825587e17ea3252175d937",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005762.json": "c95d2d9f526fe48792227e369016b6204474de6599fc925f8ca5d27cd089ac25",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005762.npz": "de96a8898050b3946b282a219c50c690d1755f850d86aacede0ce5b75ac8522c",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005762.npz": "b180740a14a078dc406cb1aa7c6f80726cea83f997494fed6123f43ed882f84b",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005762.json": "06b3eb630fccef82e1399c15223a58ee716bab28ad9adb8784f870d56cdb665f"
+          },
+          "rendered_RGB_sha256": "918476694c01f43df65f20497a459d814164004a8723d7c67bd1f60c9c60aba0"
+        },
+        {
+          "frame": "005763",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005763.bin",
+          "prediction_sha256": "40016566c8f84af4704e147df074a70055f808b2c833fef529d84bc3d5723c8d",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 25533,
+            "generated": 22772,
+            "lidar_reference": 38458
+          },
+          "display_point_counts": {
+            "radar": 3845,
+            "generated": 22616,
+            "lidar_reference": 38458
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005763.png": "527ee1296ce9d71c62d609341fbd331df0e9da5bbd1d11d0bb3fa33a6aa111f6",
+            "Dual_Radar/testing/calib/005763.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005763.bin": "a4204e7be39bf768c62418753483dbdd33d6ea8c22caa8da67f06e9af6f20517",
+            "Dual_Radar/testing/ars548/005763.bin": "1047179e7c97797e227e571b84c388f60f98a317c62251ecb9ed9ceb38361aeb",
+            "Dual_Radar/testing/robosense/005763.bin": "2cc831f99e05baa9b562fbdfc4881c7f1aefffb965dfc4f52bdd0afec4cb4210",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005763.bin": "40016566c8f84af4704e147df074a70055f808b2c833fef529d84bc3d5723c8d",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005763.json": "b95f1344e7a72e97e7959086f5bcb913c8a73a060905f3a910c3d9e12dda4eaa",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005763.npz": "d02d497b49a4530921da81ba0f7503fab93ed44a3f411e4985ad38c86a1273f3",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005763.npz": "08fdfff76aa0e3fbcf1743b651fb44aa190b566aa03808eded80f2848d644c95",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005763.json": "8e4c9cbb967780b3f0902f824d779d0a32057f9f638d2023063be6ca4fc435c7"
+          },
+          "rendered_RGB_sha256": "3992bc4b3b8f70cba4a1dad6b8f9632d3fbe5717d33b5af821abd59930739391"
+        },
+        {
+          "frame": "005764",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005764.bin",
+          "prediction_sha256": "a5be74bb7aca59f59d5f6361a244ffee5d95879c8af1c621cf32d4fa1102ac20",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 28545,
+            "generated": 21126,
+            "lidar_reference": 28206
+          },
+          "display_point_counts": {
+            "radar": 3658,
+            "generated": 21032,
+            "lidar_reference": 28206
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005764.png": "6bd4fa5ae40724404f5310e85eabfdbe68b8334b5113b9b4c802a84b0013b9af",
+            "Dual_Radar/testing/calib/005764.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005764.bin": "afddab02376d2787f93ee59b9f7480635a6be9094e87e1b31832eb2c35368aa1",
+            "Dual_Radar/testing/ars548/005764.bin": "af891e6c6dfcf4f89a97570d11ce2303179abb5403821f723b9684f6b3e4222f",
+            "Dual_Radar/testing/robosense/005764.bin": "668c0e716eee089245a9e49d981c31a5aa3d219bed35864630c8dac15cbd3793",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005764.bin": "a5be74bb7aca59f59d5f6361a244ffee5d95879c8af1c621cf32d4fa1102ac20",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005764.json": "fc64ba0605aabefd9d3154261693540b5926d78ad9c298f0c8f356711fcb9ab9",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005764.npz": "7fa493dd45ed557dd6e85224077241cfd6d352fa153aa5a0fbee0b54b8c6e32b",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005764.npz": "c9d4e0264699d3d1eb50d745609fca25d5b029dbaf83c8078a157138dc006976",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005764.json": "863e8b9d2c03c3ee54e563c55fac0c432076d44d9bdf7d563f78baaef38a93b3"
+          },
+          "rendered_RGB_sha256": "a83d21c86a8a252e3dad63d36feaafa37427bca8a764cb9ace8ad7c8432503bc"
+        },
+        {
+          "frame": "005765",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005765.bin",
+          "prediction_sha256": "ca1e473855b836570c6c066d52a4ba4bbe783f5c50e917bf9cecdac0f0fef83b",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 27740,
+            "generated": 22064,
+            "lidar_reference": 37736
+          },
+          "display_point_counts": {
+            "radar": 4058,
+            "generated": 21868,
+            "lidar_reference": 37736
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005765.png": "d3154da9fc934cfff0535b11e2162d2f09d782ce7dc8394d81db00f19928a1ff",
+            "Dual_Radar/testing/calib/005765.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005765.bin": "1598635d040eeb2e92f837c78d7930109c9d8c3c9b5cf1d730f55be921edbfdd",
+            "Dual_Radar/testing/ars548/005765.bin": "881896d9713b6e75384decc26d95c76c373a1d9c76fb4207231e6982105a152f",
+            "Dual_Radar/testing/robosense/005765.bin": "555627d731dae9d0cfcca3d32ec638c89786e25a1bb68944a5e65332f88282f2",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005765.bin": "ca1e473855b836570c6c066d52a4ba4bbe783f5c50e917bf9cecdac0f0fef83b",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005765.json": "b2fbd2538f2ede1bb433b32c4ed50e0e347a24788028dc8e9863c34babde35b6",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005765.npz": "0a60715665b9700d904a540b6c5befad0591f716607ff9bdd282548f09262aae",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005765.npz": "06f6190690586f42fe9d1e226d51712686291f27d4d63545118198d69c4e1ebd",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005765.json": "2f7ea6289aa95be5581677683c2aebe73c159d8f4cbff6381f69795b3fe87204"
+          },
+          "rendered_RGB_sha256": "3659fc0a8f39d43e0aa86742018b179b31a824dca13e0a826efd7a76934930f9"
+        },
+        {
+          "frame": "005766",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005766.bin",
+          "prediction_sha256": "582a974eb2c735909e302f630b376ceb8ade5a30175625e3d08421a45e17a2f9",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 24118,
+            "generated": 20298,
+            "lidar_reference": 37480
+          },
+          "display_point_counts": {
+            "radar": 3588,
+            "generated": 20091,
+            "lidar_reference": 37480
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005766.png": "0ba38e93a6a6a0d0a511999943f9a6f35c104e9aaf551eb244204845379a1f61",
+            "Dual_Radar/testing/calib/005766.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005766.bin": "d7b5a59d4918df8d56b93537abf36dc0a0e760f5043abe2752118707fa7242b1",
+            "Dual_Radar/testing/ars548/005766.bin": "15b8fe0dcd2384fdf20aa33d6dde19bfe10acf9d9564c2090aea4cdc7e941180",
+            "Dual_Radar/testing/robosense/005766.bin": "3a907052bb6ced1cb14ccf808269684b3eb8d95427a7cab9e10c12760322ffb0",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005766.bin": "582a974eb2c735909e302f630b376ceb8ade5a30175625e3d08421a45e17a2f9",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005766.json": "7544e8e7d62ecf258d6f8c0e37dd14a997baf87ecdc25c48de0f6e9e463f1c3a",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005766.npz": "cfe5f2d5fa3263132afdc814f3df0398cd8fa0dd29057821f51b0208cec2181b",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005766.npz": "84d4cf7636fade26c11885c6e85be5c15053bfb480f9dedc652a1e573d4add7e",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005766.json": "6f9dcf382e2bb15f029ab64464f8a001a540a8ff50005364227a68f9535e1e51"
+          },
+          "rendered_RGB_sha256": "05dc9b5e6726900d5a25b583ed96d959a4cc1120677bc9cb69896b03ea86dac5"
+        },
+        {
+          "frame": "005767",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005767.bin",
+          "prediction_sha256": "8945861268babb5980fe26a398a66e2352d10bb1e699d927d2a896bfeb48101c",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 20184,
+            "generated": 22194,
+            "lidar_reference": 37693
+          },
+          "display_point_counts": {
+            "radar": 3437,
+            "generated": 21954,
+            "lidar_reference": 37693
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005767.png": "ad494cedf9954e1a38b84119998cb1e35429cc4d43deb2a2950bcae24e4f87c7",
+            "Dual_Radar/testing/calib/005767.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005767.bin": "5594fc42ece9c50d1befe9a33080e920bbe24abc0dc5dfcd151c8839c89f2dfe",
+            "Dual_Radar/testing/ars548/005767.bin": "9338f8f27172f5ef511b21318a7aae70b5ddf1ba6331e0e0177db7cb982c017b",
+            "Dual_Radar/testing/robosense/005767.bin": "16f98f1a76bd2c2a66b2e6f6d83f6cfcbd41c5f633aaacc11744e54b94ed22ea",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005767.bin": "8945861268babb5980fe26a398a66e2352d10bb1e699d927d2a896bfeb48101c",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005767.json": "70a0d416b1cab2a4e558088047290779ff5e2b32a4924beb270de6322b5879e0",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005767.npz": "23670f2fc102a22bb3a1ce2c7ddccf2c8e078d036c1c8ca0c07bd8ee1a4c60e0",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005767.npz": "8f2067ad626eabf0a4c92bb3f68c6d3d52a3e23b9f83b9e50ab6da6306b9cc39",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005767.json": "464f0a8832f30eaffa16d19d52f933c219d12c59619f51ae4dce33f3c3f9432f"
+          },
+          "rendered_RGB_sha256": "17b23d03770463808a400dcde44dc2649bde5405cae7ed1a38f57fa1e130b8e5"
+        },
+        {
+          "frame": "005768",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005768.bin",
+          "prediction_sha256": "abbffeb2c4ade5235ea959834d7c5e22e4bbd135be18711c20074390daee5c44",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 19186,
+            "generated": 22241,
+            "lidar_reference": 34850
+          },
+          "display_point_counts": {
+            "radar": 3608,
+            "generated": 21991,
+            "lidar_reference": 34850
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005768.png": "737779e182a2a6b9eba6aac26ec4889586e0d63e86f43a01bdd70f90cbc1a3bf",
+            "Dual_Radar/testing/calib/005768.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005768.bin": "234f33c793b5c7c75d9f87561b497dff990c75582e45e4624501932ef30a6bb0",
+            "Dual_Radar/testing/ars548/005768.bin": "f1e8bb448009b113a2673d572111ad89fbbb22ffd0c16ba0c6f51b20ce7919e2",
+            "Dual_Radar/testing/robosense/005768.bin": "8fde5ad6255a7e7de64150536b89a7662beadcad2d31e5827d8973f39933058c",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005768.bin": "abbffeb2c4ade5235ea959834d7c5e22e4bbd135be18711c20074390daee5c44",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005768.json": "6358e7acbf2fe034addd1525e2e333a76106eb4bb0182a9b1bb276b42b4e9ea8",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005768.npz": "e6978c1cc92305e1b5cf17765383066bed4e142724c447ed0747adeee97c93be",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005768.npz": "dd5fdb961be0bdefbe59101b7e6c8b2d4ced6de8e5bedeccadfbf2cbf40dfe6e",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005768.json": "2a5ca0396c5023afeb1b3f37201ed5270d497969b378274cb01dff9361407971"
+          },
+          "rendered_RGB_sha256": "5f59d1ef7173e5c2fe32481bf349367c925e82c9bf4ebfc42c529925fc5d04a8"
+        },
+        {
+          "frame": "005769",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005769.bin",
+          "prediction_sha256": "831ddda64e4c4bb527f57b14520b41a5236c4ffceb81aaec1fcdd4dc34296580",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 21088,
+            "generated": 19992,
+            "lidar_reference": 37691
+          },
+          "display_point_counts": {
+            "radar": 4018,
+            "generated": 19684,
+            "lidar_reference": 37691
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005769.png": "186616fa63f3c0efe43f1753620e6fa2957caa45dca7abfe18bbf5eb5144e8bd",
+            "Dual_Radar/testing/calib/005769.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005769.bin": "4e5dde4997eff9ce8b81311af5a3250a209c0e41bfdf189fa9e18ddc9917f1cd",
+            "Dual_Radar/testing/ars548/005769.bin": "5dcecffc37dcf32d38c7f43f4c77088c3b821b7ca2c04b2a1e120a59b748f1de",
+            "Dual_Radar/testing/robosense/005769.bin": "36fa3720a509350d665acb7dbf138a5fa4e38f2123b56b3223d3900f8768c306",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005769.bin": "831ddda64e4c4bb527f57b14520b41a5236c4ffceb81aaec1fcdd4dc34296580",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005769.json": "53e90916cf0796eb71daf6eb5becd0bf4039d11f6e65ce8766c91e95d330e2c6",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005769.npz": "5d195dfcb130522c162b88889250510c8fc9eb344cda06fb1cd49e627cd3fc05",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005769.npz": "bb3fd6507d0cd6e5ac8435606ebbae7b034b771edd6c896f9a7ed7251a21bdca",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005769.json": "23a3b8bae64ad5e4fbd4c2144ad1cc8097b67657c1be30fea2da48d64b89ce26"
+          },
+          "rendered_RGB_sha256": "805d5bd6dc3c66978302c33be6217d791bb17d5fd4a0619284e78bd150d43907"
+        },
+        {
+          "frame": "005770",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005770.bin",
+          "prediction_sha256": "add3c9595aec7ccd9a79bf7aff907622064bf2eb73c62ed4be706ed98af39c36",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 20530,
+            "generated": 23993,
+            "lidar_reference": 37753
+          },
+          "display_point_counts": {
+            "radar": 4121,
+            "generated": 23705,
+            "lidar_reference": 37753
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005770.png": "44831efad50c5424fb4ded6af8b143a959c8ad247cfc168bcaf5f4c07f85fb6a",
+            "Dual_Radar/testing/calib/005770.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005770.bin": "48308b97d7f4f3f86331a5f77b8f03ff11f34740f19ad480e7667123fdeb0661",
+            "Dual_Radar/testing/ars548/005770.bin": "b0bf26cd5e0e7c63748f6f005fa3c3a71394f8395229501a83a4f45ed8421428",
+            "Dual_Radar/testing/robosense/005770.bin": "2d1e33bf682b280f29e4cc528dd00fe6923f5cdaf16a24aaa195d446df73640e",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005770.bin": "add3c9595aec7ccd9a79bf7aff907622064bf2eb73c62ed4be706ed98af39c36",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005770.json": "c16d09332a1ef882f057596aa6710277dde922273334643b7d89aa1d50fe0b38",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005770.npz": "a155df465123b0d3587040290b4e6706e5d61a6235305c8a08c9f081069f281e",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005770.npz": "9c0f6cc91bebdf6a99477b42a1e733108daaaf06efa9e36edaa8e711d471846e",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005770.json": "1b20010fcbcf27c29e350704cb06db74898de89fb4196ec710373744267ce128"
+          },
+          "rendered_RGB_sha256": "ca71307685d52096e559bf35511ed2b8504a3a004df1a68add50245b8cbbe0ba"
+        },
+        {
+          "frame": "005771",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005771.bin",
+          "prediction_sha256": "22445bd6e89fabdb33622d5c5ab44b27bc83bcb8c6b8cd280d44386fca151cb6",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 18689,
+            "generated": 19948,
+            "lidar_reference": 39847
+          },
+          "display_point_counts": {
+            "radar": 3885,
+            "generated": 19541,
+            "lidar_reference": 39847
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005771.png": "3545c35ad296c34e01cb4ec5cd79a51e5d1653f9061fe07a7dc0390e76b97010",
+            "Dual_Radar/testing/calib/005771.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005771.bin": "95960a0ded97d2b2a5533599ab22862abdda9eadf98231c9ab594f2360424a36",
+            "Dual_Radar/testing/ars548/005771.bin": "1731235dff5c1ee0fc9425071de1bc4f5cda5994330f334051b20043adc6c763",
+            "Dual_Radar/testing/robosense/005771.bin": "01d9cf4b07fd7eec3f5b2c2441ed351ba8acc034c02a9bac2a1a030b993b73e7",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005771.bin": "22445bd6e89fabdb33622d5c5ab44b27bc83bcb8c6b8cd280d44386fca151cb6",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005771.json": "860c937ebeaff9b71a4d2489e0cecc20819e7b11a21c6e7b95334027adeb5bef",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005771.npz": "f4e935ae6f4c363646202920dc81e2eb1b7cb3922823750aef572f897886815b",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005771.npz": "04987e29e7c3c4481e617da571bbd1b25278b66c332ee4cc26e0f248a6b21d1f",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005771.json": "35e9ff791955de57a34fd9181c21c38e77cde6a0505414740687c95d40d4b22f"
+          },
+          "rendered_RGB_sha256": "ebeb1715fbadbef15ff8ee60544aad1a057d22c959ae8efc40f784a51185bcb7"
+        },
+        {
+          "frame": "005772",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005772.bin",
+          "prediction_sha256": "8977a3409cdc9b4438d5e3989011aba051c155e7e3ca5de172cd90b11ffca3a4",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 17719,
+            "generated": 21404,
+            "lidar_reference": 40830
+          },
+          "display_point_counts": {
+            "radar": 3672,
+            "generated": 20896,
+            "lidar_reference": 40830
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005772.png": "34c64f83588eba1dd5fc6bffb93a6f36a83496d5c35750e64e19c667c42a8db8",
+            "Dual_Radar/testing/calib/005772.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005772.bin": "4d593932b3d0af69ef0468677de957810c69d0b3869dcbd281848f3ea4e6353b",
+            "Dual_Radar/testing/ars548/005772.bin": "33cd0ef65f6d6f978a16d7b9f9725c243281ed3c1d8af48a4bb172375cc1a181",
+            "Dual_Radar/testing/robosense/005772.bin": "75b354e3019518331491465d03b9d39d39ec92b3e3fe4fa65f934351e868bc86",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005772.bin": "8977a3409cdc9b4438d5e3989011aba051c155e7e3ca5de172cd90b11ffca3a4",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005772.json": "b7f37c4e98be7952716676299db6f2ee11ec2ebe5889078a6fbc1f4565bd3eab",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005772.npz": "95291b77136ac7db1d173c484007ec1ccd5b87595a546a1486ab91330cc13e1c",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005772.npz": "d97717671962cca91303f455b9d3624c96e5cd098633ab2adc2ca8f297083c13",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005772.json": "626ee0a550e9553640293ac9d9cd4a464cf8903ea34fae3471f7807b87d43166"
+          },
+          "rendered_RGB_sha256": "85a916cac3fc0066721d7ccf293097a0081ba52f376d051c39318bbb3b39b38f"
+        },
+        {
+          "frame": "005773",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005773.bin",
+          "prediction_sha256": "837ea09d03bb64e9b1f024060217e73c244f40629efd3524fb4912e37cb7ab9c",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 17729,
+            "generated": 22513,
+            "lidar_reference": 41207
+          },
+          "display_point_counts": {
+            "radar": 4027,
+            "generated": 21937,
+            "lidar_reference": 41207
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005773.png": "565d3cb2a1cd735d94f0349b6e3461a8a51443efa9214d6a596b335923a5cae3",
+            "Dual_Radar/testing/calib/005773.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005773.bin": "bcc6cb9291dbc523a36adf982de93035a2e24de0cb8fae91f4d6560908b9d0a2",
+            "Dual_Radar/testing/ars548/005773.bin": "d057932f118c40b9edf1ae9eb21563e2a930e63181335300c4b387f5a2f22e5c",
+            "Dual_Radar/testing/robosense/005773.bin": "6ee97d58e7fbe2c9f59b961b9f7cb7339b173ba041a73b5b2123dd03d1f7eacc",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005773.bin": "837ea09d03bb64e9b1f024060217e73c244f40629efd3524fb4912e37cb7ab9c",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005773.json": "556b832c6a8171a785775022310a15fc6257ebd0e92c61107c085b99c5ecebc8",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005773.npz": "27f5eba623cf9c43a816d723daef3635040bdfc0138e2c4cde86787ddf4b073e",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005773.npz": "2c37963dc9fe586a063b914eae86d1bed71cb551b807ddd6cf378d891466b882",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005773.json": "2436c05130717631233ef9dcffdeb322c39a7b3dc0996e798d8edd33fc27f27a"
+          },
+          "rendered_RGB_sha256": "f041960b3e465f1ffec28980214bc5e1aa9b32f2edd4261b13730103250a60c4"
+        },
+        {
+          "frame": "005774",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005774.bin",
+          "prediction_sha256": "bcd793c69757711870710e4d6c1d9aeb4ad0b5169b4c741dbcef350f8789aac7",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 15777,
+            "generated": 22268,
+            "lidar_reference": 41838
+          },
+          "display_point_counts": {
+            "radar": 3401,
+            "generated": 22049,
+            "lidar_reference": 41838
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005774.png": "1d6be0a9a5d16ebd71048a83bdaae39935e1fc43a5b90cfedec6b537d199c241",
+            "Dual_Radar/testing/calib/005774.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005774.bin": "0afbc131b7e2ff484694e8729ca18bed4cb43bd2e35f5eb16b3b4d3206114867",
+            "Dual_Radar/testing/ars548/005774.bin": "1865e94ebd068d41c3487a93ccede1c2f705fdd83da93518012eeb0b2976f8bd",
+            "Dual_Radar/testing/robosense/005774.bin": "7e9def0743fdfe8922fde9978d882beaaa3789ba3105bd99e979fdd8cb793082",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005774.bin": "bcd793c69757711870710e4d6c1d9aeb4ad0b5169b4c741dbcef350f8789aac7",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005774.json": "b47fdbcaa169a14e85819785d0aea817e4373e5b13f7ebfa9a22649375c82a11",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005774.npz": "9d0bf1d152b23e002818a020a2617faf8de7c8fc245cf4d13f63ebd4772a3ec3",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005774.npz": "859f92b81d4049c469961d3c5866225befe6c093e9c755669edc37261a5ac44e",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005774.json": "b9b75cfbbcce7e4044f78f4a07d9c9e22b5d326da97dfbe935eb4fdcc3f02c1a"
+          },
+          "rendered_RGB_sha256": "b09af2639924944043201d7968be2d274d4cc67421c87faaaef95845c7089cc9"
+        },
+        {
+          "frame": "005775",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005775.bin",
+          "prediction_sha256": "0c3f57b17942345159961a3d4e36689f93526a9ebe4d01c0afe14b53f52816c3",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 17770,
+            "generated": 23636,
+            "lidar_reference": 42138
+          },
+          "display_point_counts": {
+            "radar": 5253,
+            "generated": 23258,
+            "lidar_reference": 42138
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005775.png": "16f0fbcfe802467f05792277f4bad8e768ca8f1f8828aa988047be37b7a74685",
+            "Dual_Radar/testing/calib/005775.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005775.bin": "f5e24b908574830f3e88279bd61983f9364a1fc832144c3ffb86745446d91965",
+            "Dual_Radar/testing/ars548/005775.bin": "487bc11074d169410112306838b8bbdc4486befff692ea74354021c4ac12b450",
+            "Dual_Radar/testing/robosense/005775.bin": "b9a9fc89fe3f38eba9cb8c2fc96425d180a44ea8afcc7550404350652259787b",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005775.bin": "0c3f57b17942345159961a3d4e36689f93526a9ebe4d01c0afe14b53f52816c3",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005775.json": "cedf6bfbae4ba00021b43567df05a38b2c1883309eb2ef4c214ddb3e31ae6b2f",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005775.npz": "060b49273e8d95ee8f71295e239328c4263c456773b620fb8532f2df0bbbd9f2",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005775.npz": "e9b7e0e1012fdf68e9d0f835616df43b58e60a3e8cddf0e814dc60d274c4bacd",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005775.json": "39400d7278b5117167b037a6529410a9b272a51d9edf3c3df2e8e3072aecea48"
+          },
+          "rendered_RGB_sha256": "3368f08be99b5c3ebbc377e53a9272df8e66e6ed122315a40aeba421e3a3bca1"
+        },
+        {
+          "frame": "005776",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005776.bin",
+          "prediction_sha256": "7217ea0ac8f580a393d77a6bf5bb3a32bc034b1bd65d80412184a49c2562632a",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 18268,
+            "generated": 21850,
+            "lidar_reference": 42245
+          },
+          "display_point_counts": {
+            "radar": 5238,
+            "generated": 21570,
+            "lidar_reference": 42245
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005776.png": "07b80582210b6ecee0f482bf1ba6abae01aedfdaaa95e2c200e247f2b1b514ec",
+            "Dual_Radar/testing/calib/005776.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005776.bin": "f768fb394c84b175437116a930323c80da09e9de60f6d7708cd6cfc471f777a4",
+            "Dual_Radar/testing/ars548/005776.bin": "e981668f719e370cf9812edd29ae9e6dcc4d7297ea37b47b46d4b935eac11e97",
+            "Dual_Radar/testing/robosense/005776.bin": "62bcdb0f1aa41349e7ba347e67174bdd3298470f737546e51fe39a10beb0c42a",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005776.bin": "7217ea0ac8f580a393d77a6bf5bb3a32bc034b1bd65d80412184a49c2562632a",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005776.json": "c7c0f97869ba78838ec7415e28a8405b8957a39f39528c52257699055f45cfd9",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005776.npz": "d0e64af875d7f3b024118f1583c58a86d2fd527f9f9382fcf3aeeefdb48860e7",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005776.npz": "f81138d6ccb42a983177836290d450caf3a1540795b2ad40120b131aef84577f",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005776.json": "03feb6c6280785e5858c2d00418c07fb654f416da3dba872fe88dcf8758efad0"
+          },
+          "rendered_RGB_sha256": "d2fa556c02867cb1f499b0b3fd79a44a16ff904c7238b2b111a530545f5ecff4"
+        },
+        {
+          "frame": "005777",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005777.bin",
+          "prediction_sha256": "9b6ccc3ae9b0ddfbf168174829815f9193402065d6df3447880a4763db1fc584",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 19544,
+            "generated": 22090,
+            "lidar_reference": 38346
+          },
+          "display_point_counts": {
+            "radar": 6609,
+            "generated": 21820,
+            "lidar_reference": 38346
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005777.png": "fa77ef779dabeb37da544b3ebb17ba5ff074dec9067b6b9066978634c3e8e378",
+            "Dual_Radar/testing/calib/005777.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005777.bin": "c4ec21477eb4b428ec62686f537d5b43e621d468bcacde8f1bd357d187b22da9",
+            "Dual_Radar/testing/ars548/005777.bin": "633a03dc864f4a03628ac74ddbb6fc8f0b69fae282d0022773fa69094f90381d",
+            "Dual_Radar/testing/robosense/005777.bin": "d0434fc7870ef2d86c9f91ed5d651057d3b3a8f03394aa0d792a09c00ac3f931",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005777.bin": "9b6ccc3ae9b0ddfbf168174829815f9193402065d6df3447880a4763db1fc584",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005777.json": "511b060da27227d6213605df491f45f027c914f0649322d7962d3651427cd171",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005777.npz": "8077d7ccfc309c77598a23714723990c9dd0b0b86874e4ff71bfd50022efd60d",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005777.npz": "f047d6020562b6fb09ae7088bfb5a51619e22cd5ca186cc36ac693753d3ff8e7",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005777.json": "0c2873f022859819a768aa8927b4c39f81ffa44c7ef3267e8fea328810c9aab8"
+          },
+          "rendered_RGB_sha256": "f2a3ce66c76706ac9104d0b327ff6d98451367d96b9223c0f5f63f2253aab3c2"
+        },
+        {
+          "frame": "005778",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005778.bin",
+          "prediction_sha256": "ce4133dfdcdd2925c0d354f0d9da4be45b3d5791ac795c319ae630de72888089",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 19608,
+            "generated": 20286,
+            "lidar_reference": 42137
+          },
+          "display_point_counts": {
+            "radar": 6741,
+            "generated": 19966,
+            "lidar_reference": 42137
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005778.png": "1393b6d61711368bca381ee8fe59cdff2c748e609841fb63d24cd1560921a74e",
+            "Dual_Radar/testing/calib/005778.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005778.bin": "a3ad338b0ba8d43d64f4fe642113bcf503fcccf2be971525e76b1d09ae285a96",
+            "Dual_Radar/testing/ars548/005778.bin": "8f4039846c950d2457cb217b9e6f655a46cfa4ae85b2db0d3c7fb81e4093517e",
+            "Dual_Radar/testing/robosense/005778.bin": "bbe749f76c34680278de972a3e0f0fb68679ecc1c4d40f8ab0b6b4e07c6ff1be",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005778.bin": "ce4133dfdcdd2925c0d354f0d9da4be45b3d5791ac795c319ae630de72888089",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005778.json": "8eb990d66427130388fe71683e5f293037c1a07e0936b4fda6b2209d08d99225",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005778.npz": "d35d26fc80c3266748b17d2998159eeef868db5f496845c797dab7c7d16acb2a",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005778.npz": "f6a8af3327863b8bc4e0f85dc5c6750ddf466f36ee600160d14e166f36b4defb",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005778.json": "0c42d10c6c1d5e345b4343182361ff460019c100c7aabe8962d199318a9797ed"
+          },
+          "rendered_RGB_sha256": "481f8b848b4fc938fd0f7f5963e4b94fd6e3387343913c2bc61c6e3dc7d28735"
+        },
+        {
+          "frame": "005779",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005779.bin",
+          "prediction_sha256": "1aea6e689ae1afb0d960bcba38019de2c8bda1e056f8d884cdd6ce6b8c4f6624",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 15178,
+            "generated": 22485,
+            "lidar_reference": 38243
+          },
+          "display_point_counts": {
+            "radar": 4920,
+            "generated": 20260,
+            "lidar_reference": 38243
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005779.png": "5ac50a2e75ee80dbb0d7afe627ef76ee178a36e2d48ffbea7176af5f5a73a6bf",
+            "Dual_Radar/testing/calib/005779.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005779.bin": "ce26ac062a3927176c7f7f1ff6fbdc909bdde20c37a0bc890cf9fe4d9ea4edce",
+            "Dual_Radar/testing/ars548/005779.bin": "3c511d6751906340bdfb55e466e14879cd1ab673ed7707018cc93917eaf332f1",
+            "Dual_Radar/testing/robosense/005779.bin": "89437412225cb694177ee673597757a3b24280d33a81dec879a54a97b854adce",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005779.bin": "1aea6e689ae1afb0d960bcba38019de2c8bda1e056f8d884cdd6ce6b8c4f6624",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005779.json": "7ea2e95bada9a1af51716881e99a8c95403a2206ae057f10c86dfebf8394de10",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005779.npz": "908b5e449860585c79130dd4da14eddb8aa6c4e91ebbcccb042f32f6b633b276",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005779.npz": "64b1a15b9f39c4e96d32043dcc11a2bba64b6d20a387aa29621c3e4acb7530e4",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005779.json": "53d3cf5496cc5d041ae1b39478edbe8643967a6c3596c0f423cc7dcfd1ede119"
+          },
+          "rendered_RGB_sha256": "ed6aaa644b57aaca57437f4a69ce1c99aa8a8f40198046c847064da80edd0051"
+        },
+        {
+          "frame": "005780",
+          "prediction_source": "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005780.bin",
+          "prediction_sha256": "a9444b5c71e62190c225b25984d71bceff0f580db03a1f71d833a0367df79fbf",
+          "decoder_sha256": "1a0ebee79f9c086bba0d8c7dd53eed9996a545fee6ebbf8b7ea8980ab7b43f62",
+          "generator_sha256": "bbc005475ac74890ea0dc32ebff53e17377110dc5f092f19a90e606e6318b40e",
+          "native_point_counts": {
+            "radar": 24150,
+            "generated": 20574,
+            "lidar_reference": 38577
+          },
+          "display_point_counts": {
+            "radar": 12871,
+            "generated": 19009,
+            "lidar_reference": 38577
+          },
+          "sources": {
+            "Dual_Radar/testing/image/005780.png": "6c84dee0ad577ef7892aa00c9adc073371f2243eff0d265ca80f821c66f400b6",
+            "Dual_Radar/testing/calib/005780.txt": "fdbf6de71c8961dadc56d989c3f294df1a018e0b9ae6b5e539278ee4196106ab",
+            "Dual_Radar/testing/arbe/005780.bin": "141c40dfd8f238b784d4c35a1bd9da1dc04f5342ac0f6b29a404948a94a7f42b",
+            "Dual_Radar/testing/ars548/005780.bin": "270ec5794df8898a9fbe2ec0e70b8642763f743982cc76e0f190aab94fc5845c",
+            "Dual_Radar/testing/robosense/005780.bin": "a36351e8470ec39081d6fd8ed7732dc8ffe629edf3d1465447bad033d1bbad47",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/points/005780.bin": "a9444b5c71e62190c225b25984d71bceff0f580db03a1f71d833a0367df79fbf",
+            "experiments/dual_zb2_closed_loop_full_20261107/full_test_v2/soft_control/records/005780.json": "9f01c7177eaec6bf973fd138024cbf0e3ef5102eb0759bb85cdcfec1ce72a9bd",
+            "evaluation_outputs/review_round/00_audit/ground_state_audit/sequential_gt/dual/005780.npz": "fd56e6c728d2f086ae9ec87a6447253896f7fc56626044d971c6c47b0bc0656e",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/tensors/005780.npz": "10ae271e67b0ee23584bfdbbd4b6823a79a0da574a3721a4020d3bc830958495",
+            "experiments/dual_zb2_xy_us_decoder_full_20261106/inference_decoder_v3/test/gaussian/records/005780.json": "6be1652734fe9a4eb0dbc2b1baf84ea228a5602d034aceb6bd7af10e2cbf4cbf"
+          },
+          "rendered_RGB_sha256": "103efd25dc30cb630fd30f327f0926f43ddc32b77726d3c2918b80a97a8a75e6"
         }
       ]
     },
@@ -3662,7 +4870,7 @@
     "lidar": "Same ground-removed LiDAR reference cache used by manuscript, never fed into inference",
     "playback_fps": 10,
     "playback_note": "Presentation playback only; not inference throughput or a real-time claim",
-    "sequence_cuts": "Between the two explicit segments only; no missing or reordered frame IDs within each segment",
+    "sequence_cuts": "Between the three explicit segments only; no missing or reordered frame IDs within each segment",
     "GIF_preview": {
       "pixels": [
         800,
@@ -3670,7 +4878,7 @@
       ],
       "palette_colors": 96,
       "HD_MP4_unchanged": true,
-      "all120frames_retained": true
+      "all160frames_retained": true
     }
   },
   "artifacts": {
@@ -3706,19 +4914,32 @@
       "sha256": "c5594bb67ad101725f76d89860292762d5180185614dcb49e192d6fe1c04be34",
       "bytes": 2940179
     },
-    "assets/paper-ddpm1000/dual_zb2_ddpm1000_paper_120.mp4": {
-      "sha256": "0c501bfc4d311530db708b0b1b0a4a98c0234fd1071e7020e64f51dac7174ed1",
-      "bytes": 5531343
+    "assets/paper-ddpm1000/dual_zb2_ddpm1000_paper_160.mp4": {
+      "sha256": "52e000731c1d7257a6f486433800d6f54f45739937a0a94bf8b55c9e38858523",
+      "bytes": 6162483
     },
-    "assets/paper-ddpm1000/dual_zb2_ddpm1000_paper_120.gif": {
-      "sha256": "114455b20ab81dffa382892be0b0a26d137ddb279a696d19fab7c165e1c8cdc7",
-      "bytes": 4504392
+    "assets/paper-ddpm1000/dual_zb2_ddpm1000_paper_160.gif": {
+      "sha256": "50d9d05d730d75a2600fa947f551284ec66368c9d6594f2d648e52b24b3b275c",
+      "bytes": 5323027
+    },
+    "assets/paper-ddpm1000/tunnel-straight.mp4": {
+      "sha256": "94214fa4495bf1a6db28444ffd3b8de96264fb307ddb40a55b56105cbba9ee38",
+      "bytes": 626130
+    },
+    "assets/paper-ddpm1000/tunnel-straight.gif": {
+      "sha256": "62bc80ae624f9efd9f36607b52f9eaa89f7d2adf2120c1303961c632a59d01fe",
+      "bytes": 826586
+    },
+    "assets/paper-ddpm1000/tunnel-straight-poster.jpg": {
+      "sha256": "9a74bd209a3934ff2bb25a97fc3db4b096b405a1f26cad155b5491c71fa44b9c",
+      "bytes": 101530
     }
   },
   "presentation_revision": {
-    "reason": "Tunnel segment removed at user request; original point clouds and previous assets unchanged.",
-    "segments": 2,
-    "frames": 120,
-    "duration_seconds": 12
+    "reason": "Replace removed curved tunnel with a visually reviewed straight-tunnel segment at user request; qualitative selection, not aggregate performance evidence.",
+    "segments": 3,
+    "frames": 160,
+    "duration_seconds": 16,
+    "tunnel_max_adjacent_camera_MAE": 0.03051788307915759
   }
 }

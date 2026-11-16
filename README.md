@@ -2,7 +2,7 @@
 
 **Diffusion-Based Radar-to-LiDAR Point Cloud Generation via Stratified Gaussian Encoding and Offset-Aware Alignment**
 
-[**Watch the video gallery →**](https://maokang94.github.io/Radar-to-LiDAR/) · [Full-resolution MP4](assets/paper-ddpm1000/dual_zb2_ddpm1000_paper_120.mp4) · [Visualization protocol](#visualization-protocol)
+[**Watch the video gallery →**](https://maokang94.github.io/Radar-to-LiDAR/) · [Full-resolution MP4](assets/paper-ddpm1000/dual_zb2_ddpm1000_paper_160.mp4) · [Visualization protocol](#visualization-protocol)
 
 ## Paper-model continuous demonstration
 
@@ -10,13 +10,14 @@
 
 The four columns follow the paper's opening qualitative figure. Each column uses the same frame ID. These are actual saved predictions from the paper's **Dual Radar, 256×256, ZB=2, XY-ODA, geometry-consistent learned decoder** model, with the **original 1000-index DDPM schedule (999 reverse updates)**. These are **not DDIM50** results and do not use the alternative integer-aware decoder.
 
-![120 matched frames: camera, raw radar BEV, generated cloud and LiDAR reference](assets/paper-ddpm1000/dual_zb2_ddpm1000_paper_120.gif)
+![160 matched frames: camera, raw radar BEV, generated cloud and LiDAR reference](assets/paper-ddpm1000/dual_zb2_ddpm1000_paper_160.gif)
 
-**120 frames / two continuous 60-frame segments.** Frame order is preserved without dropping intermediate IDs. Playback is10 displayed frames/s, for presentation only—not generation speed.
+**160 frames / three continuous segments (60 + 40 + 60 frames).** Frame order is preserved without dropping intermediate IDs. Playback is10 displayed frames/s, for presentation only—not generation speed.
 
 | Scene | Continuous frames | Watch / download |
 |---|---|---|
 | Intersection | `006217–006276` | [MP4](assets/paper-ddpm1000/intersection.mp4) · [GIF](assets/paper-ddpm1000/intersection.gif) |
+| Tunnel | `005741–005780` | [MP4](assets/paper-ddpm1000/tunnel-straight.mp4) · [GIF](assets/paper-ddpm1000/tunnel-straight.gif) |
 | Urban road | `007120–007179` | [MP4](assets/paper-ddpm1000/urban-road.mp4) · [GIF](assets/paper-ddpm1000/urban-road.gif) |
 
 ## Visualization protocol
@@ -28,7 +29,7 @@ The four columns follow the paper's opening qualitative figure. Each column uses
 - **Camera:** complete matched front-view image, aspect ratio preserved and no exposure edits.
 - **No point-count matching, temporal interpolation, GT-distance filtering or new inference.** Every point inside the shared ROI is rendered.
 
-The [provenance manifest](paper_ddpm1000_manifest.json) records all 120 frame IDs, point counts, source/model/media hashes and visualization settings.
+The [provenance manifest](paper_ddpm1000_manifest.json) records all 160 frame IDs, point counts, source/model/media hashes and visualization settings.
 
 ## Model identity
 
